@@ -1,0 +1,33 @@
+{
+  "name": "@nikumar1206/demo-pkg",
+  "version": "1.0.1",
+  "description": "practicing with node modules",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikumar1206/demo-pkg.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Nikhil Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikumar1206/demo-pkg/issues"
+  },
+  "homepage": "https://github.com/nikumar1206/demo-pkg#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "tsconfig.json": "^1.0.11"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "type": "module"
+}
