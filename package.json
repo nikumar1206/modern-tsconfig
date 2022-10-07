@@ -1,6 +1,6 @@
 {
   "name": "@nikumar1206/demo-pkg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "practicing with node modules",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
