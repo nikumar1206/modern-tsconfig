@@ -8,6 +8,9 @@ const __dirname = path.resolve();
 const pathToConfig = path.join(__dirname, "dist", "tsconfig.react.json");
 console.log(pathToConfig);
 
+const files = await fs.readdir(__dirname);
+console.log(files);
+
 const main = async () => {
   try {
     const data = await fs.readFile(pathToConfig, "utf8");
