@@ -5,17 +5,13 @@ import * as path from "path";
 import { promises as fs } from "fs";
 
 const __dirname = path.resolve();
-const pathToConfig = path.join(__dirname, "tsconfig.react.json");
-console.log(pathToConfig);
-
-const files = await fs.readdir(__dirname);
-console.log(__dirname);
-console.log(files);
+const config = path.resolve(__dirname, "tsconfig.react.json");
 
 const main = async () => {
   try {
-    const data = await fs.readFile(pathToConfig, "utf8");
-    await fs.writeFile("tsconfig.json", data);
+    const data = await fs.readFile(config, "utf8");
+    const configLocation = path.join(process.cwd(), "tsconfig.json");
+    await fs.writeFile(configLocation, data);
   } catch (error) {
     console.log(error);
   }

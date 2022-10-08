@@ -2,14 +2,14 @@
 import * as path from "path";
 import { promises as fs } from "fs";
 const __dirname = path.resolve();
-const pathToConfig = path.join(__dirname, "tsconfig.react.json");
+const pathToConfig = path.join("tsconfig.react.json");
 console.log(pathToConfig);
 const files = await fs.readdir(__dirname);
 console.log(__dirname);
 console.log(files);
 const main = async () => {
     try {
-        const data = await fs.readFile(pathToConfig, "utf8");
+        const data = await fs.readFile("tsconfig.react.json", "utf8");
         await fs.writeFile("tsconfig.json", data);
     }
     catch (error) {
