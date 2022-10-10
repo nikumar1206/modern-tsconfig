@@ -1,12 +1,13 @@
 {
   "name": "@nikumar1206/demo-pkg",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "practicing with node modules",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "cp node_modules/@nikumar1206/demo-pkg/config/tsconfig.json"
   },
   "bin": "./dist/index.js",
   "repository": {
@@ -30,7 +31,8 @@
     "tsconfig.json": "^1.0.11"
   },
   "files": [
-    "dist/**/*"
+    "dist/*",
+    "config/*"
   ],
   "type": "module"
 }
