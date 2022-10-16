@@ -1,6 +1,6 @@
 {
 	"name": "modern-tsconfig",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Use an opinionated tsconfig for faster TypeScript project setup. Inspired by Ben Awad",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
