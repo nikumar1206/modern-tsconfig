@@ -4,8 +4,7 @@
 import * as path from "path";
 import { promises as fs } from "fs";
 
-const __dirname = path.resolve();
-const config = path.resolve(__dirname, "dist", "tsconfig.react.json");
+const config = path.resolve(__dirname, "tsconfig.react.json");
 
 const main = async () => {
 	try {
@@ -17,8 +16,4 @@ const main = async () => {
 	}
 };
 
-try {
-	await main();
-} catch (error) {
-	console.log(error);
-}
+main().then(() => console.log("Worked Successfully!"));
