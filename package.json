@@ -1,7 +1,7 @@
 {
-	"name": "@nikumar1206/demo-pkg",
-	"version": "1.1.5",
-	"description": "practicing with node modules",
+	"name": "modern-tsconfig",
+	"version": "1.1.6",
+	"description": "Use an opinionated tsconfig for faster TypeScript project setup. Inspired by Ben Awad",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
@@ -26,9 +26,6 @@
 	"devDependencies": {
 		"@types/node": "^18.8.3",
 		"typescript": "^4.8.4"
-	},
-	"dependencies": {
-		"tsconfig.json": "^1.0.11"
 	},
 	"files": [
 		"dist/*"

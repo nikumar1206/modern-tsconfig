@@ -16,4 +16,4 @@ const main = async () => {
 	}
 };
 
-main().then(() => console.log("Worked Successfully!"));
+main();
