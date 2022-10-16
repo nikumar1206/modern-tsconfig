@@ -1,9 +1,13 @@
 {
 	"compilerOptions": {
-		"target": "es2017",
+		"target": "ES2022",
 		"module": "ES2022",
-		"lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+		"outDir": "build/dist",
+		"rootDir": "src",
+		"lib": ["dom", "es6", "ES2022", "esnext.asynciterable"],
+		"jsx": "react",
 		"skipLibCheck": true,
+		"allowJs": false,
 		"sourceMap": true,
 		"declaration": true,
 		"removeComments": true,
@@ -21,6 +25,13 @@
 		"experimentalDecorators": true,
 		"baseUrl": "./"
 	},
-	"exclude": ["node_modules", "**/__tests__/*"],
+	"exclude": [
+		"node_modules",
+		"build",
+		"scripts",
+		"acceptance-tests",
+		"webpack",
+		"jest"
+	],
 	"include": ["src/**/*"]
 }
