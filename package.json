@@ -12,7 +12,7 @@
 	"bin": "./dist/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nikumar1206/demo-pkg.git"
+		"url": "git+https://github.com/nikumar1206/modern-tsconfig.git"
 	},
 	"keywords": [
 		"tsconfig",
@@ -25,9 +25,9 @@
 	"author": "Nikhil Kumar",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/nikumar1206/demo-pkg/issues"
+		"url": "https://github.com/nikumar1206/modern-tsconfig/issues"
 	},
-	"homepage": "https://github.com/nikumar1206/demo-pkg#readme",
+	"homepage": "https://github.com/nikumar1206/modern-tsconfig#readme",
 	"devDependencies": {
 		"@types/inquirer": "^9.0.2",
 		"@types/node": "^18.8.3",

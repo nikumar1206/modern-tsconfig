@@ -1,4 +1,4 @@
-# modern-tsconfigs
+# modern-tsconfig
 
 Use an opinionated tsconfig for faster TypeScript project setup.
 Supports React and Node configs only.
