@@ -22,7 +22,7 @@ const main = async () => {
 		const configLocation = path.join(process.cwd(), "tsconfig.json");
 		await fs.writeFile(configLocation, data);
 	} catch (error) {
-		console.log(error);
+		console.error(error);
 	}
 };
 
